@@ -1,0 +1,23 @@
+.footer__links{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  gap: 18px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer__links{
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px){
+  .footer__links{
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer__links{
+    max-width: 320px;
+  }
+}

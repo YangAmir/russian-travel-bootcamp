@@ -1,0 +1,24 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 48px 24px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 768px){
+  .footer{
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .footer{
+    max-width: 320px;
+  }
+}
