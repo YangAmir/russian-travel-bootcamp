@@ -1,16 +1,15 @@
-.lead{
-
+.lead {
   margin: 0 auto;
   padding: 0;
-
+  width: calc(100% - 2*148px);
 }
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 100%;
+    width: calc(100% - 2*48px);
   }
 }
 @media screen and (max-width: 768px) {
-  .lead{
+  .lead {
     width: 100%;
   }
 }
@@ -18,5 +17,6 @@
 @media screen and (max-width: 320px) {
   .lead {
     width: 100%;
+    margin-top: 48px;
   }
 }

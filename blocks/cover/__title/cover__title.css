@@ -1,11 +1,26 @@
-.cover__title{
+.cover__title {
   max-width: 560px;
-  color:#FFFFFF;
+  color: #ffffff;
   font-size: 72px;
   text-align: center;
   font-weight: 900;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-style: normal;
- 
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    max-width: 560px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px;
+    margin-top: 33px;
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
 }

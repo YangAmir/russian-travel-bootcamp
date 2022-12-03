@@ -1,11 +1,19 @@
-.intro{
-  
-  /* max-width: 720px;
-  width: calc(100% - 148px * 2); */
-  margin-top: 152px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-
-
+.intro {
+  width: calc(100% - 148px * 2);
+  margin: 110px auto;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% - 48px * 2);
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% - 24px * 2);
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    width: calc(100% - 16px * 2);
+  }
 }

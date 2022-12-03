@@ -1,28 +1,32 @@
-.place__title{
+.place__title {
   font-size: 72px;
-  margin: 0;
-  color: #FFFFFF;
+  margin-top: 80px;
+  margin-bottom: 0;
+  color: #ffffff;
   line-height: 76px;
   font-weight: 900;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
-@media screen and (max-width: 1024px){
-  .place__title{
+@media screen and (max-width: 1024px) {
+  .place__title {
     max-width: 1024px;
   }
 }
-@media screen and (max-width: 768px){
-  .place__title{
-    max-width: 768px;
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
   }
 }
 
-@media screen and (max-width: 320px){
-  .place__title{
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
     max-width: 320px;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 }

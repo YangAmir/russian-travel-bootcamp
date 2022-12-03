@@ -1,14 +1,22 @@
-.header__lang-link{
+.header__lang-link {
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
   font-family: Arial, sans-serif;
-  color: #FFFFFF;
-  margin: 18px 18px 6px 0;
+  color: #ffffff;
+  margin-left: 9px;
+  padding: 0;
   text-decoration: none;
   transition: 0.3s ease;
 }
-.header__lang-link:hover{
+.header__lang-link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

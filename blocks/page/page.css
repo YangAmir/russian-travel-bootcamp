@@ -1,8 +1,10 @@
 .page {
-  -webkit-text-size-adjust:100%;
-  -ms-text-size-adjust:100%;
-  -moz-text-size-adjust:100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   background-color: #2a2c2f;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  padding: 0;
 }

@@ -31,17 +31,18 @@
 }
 @media screen and (max-width: 1024px){
   .cover__overlay{
-    max-width: 1024px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px){
   .cover__overlay{
-    max-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px){
   .cover__overlay{
-    max-width: 320px;
+    justify-content: flex-start;
+    min-height: 200px;
   }
 }
