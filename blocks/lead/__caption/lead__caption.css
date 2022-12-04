@@ -7,4 +7,19 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }

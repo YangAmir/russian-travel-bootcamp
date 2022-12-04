@@ -9,3 +9,9 @@
   font-family: "Inter", sans-serif;
 }
 
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    margin-bottom: 34px;
+  }
+}
