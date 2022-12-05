@@ -16,10 +16,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .place__image {
     margin-bottom: 32px;
-    max-width: 320px;
+    margin-left: 0;
+    width: vw;
     object-fit: cover;
   }
 }

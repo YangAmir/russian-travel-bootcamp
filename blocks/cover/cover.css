@@ -13,7 +13,7 @@
     width: 100%;
   }
 }
-/* 768 */
+
 @media screen and (max-width: 768px) {
   .cover {
     margin-top: 90px;

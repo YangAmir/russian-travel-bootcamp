@@ -7,12 +7,12 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    max-width: 1024px;
+    max-width: 928px;
   }
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: 768px;
+    max-width: 720px;
     width: calc(100% - 2 * 24px);
   }
 }

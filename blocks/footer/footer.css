@@ -1,5 +1,5 @@
 .footer {
-  max-width: 1184px;
+  width: calc(100% - 48*2px);
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
     width: calc(100% - 2 * 24px);
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .footer {
     padding-left: 16px;
     width: 100%;

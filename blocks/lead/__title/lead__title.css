@@ -19,8 +19,7 @@
 }
 @media screen and (max-width: 690px) {
   .lead__title {
-    max-width: none;
-    margin: auto;
+  font-size: 12vw;
   }
 }
 

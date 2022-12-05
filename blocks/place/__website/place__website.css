@@ -4,10 +4,10 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .place__website {
     margin: 0 auto 32px;
-    box-sizing: border-box;
     width: calc(100% - 2 * 16px);
   }
 }
+
