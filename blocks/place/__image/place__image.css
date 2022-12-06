@@ -20,7 +20,6 @@
   .place__image {
     margin-bottom: 32px;
     margin-left: 0;
-    width: vw;
     object-fit: cover;
   }
 }

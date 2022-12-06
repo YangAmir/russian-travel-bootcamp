@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0 auto 32px;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 104%;
   font-weight: 900;
   text-align: center;
   color: #ffffff;
@@ -17,7 +17,7 @@
     margin-bottom: 32px;
   }
 }
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 768px) {
   .lead__title {
   font-size: 12vw;
   }
@@ -28,6 +28,6 @@
     margin-bottom: 16px;
     max-width: 288px;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 100%;
   }
 }

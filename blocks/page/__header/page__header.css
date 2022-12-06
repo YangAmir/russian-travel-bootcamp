@@ -3,8 +3,8 @@
   padding-top: 28px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .page__header{
-    margin-bottom: 16px;
+    padding-top: 16px;
   }
 }

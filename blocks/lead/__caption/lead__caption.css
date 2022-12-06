@@ -8,10 +8,12 @@
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
   padding: 0;
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
+    margin-top: 2px;
     margin-left: 24px;
   }
 }

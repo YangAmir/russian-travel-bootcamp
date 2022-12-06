@@ -1,5 +1,4 @@
 .footer__link {
-  margin: 0 18px 0 0;
   padding: 0;
   text-decoration: none;
   color: #ffffff;
@@ -14,7 +13,7 @@
 
 @media screen and (max-width: 480px) {
   .footer__link {
-    margin-bottom: 32px;
+    margin-bottom: 33px;
     font-size: 24px;
     line-height: 24px;
     display: flex;

@@ -5,7 +5,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
 }
 .place__paragraph:last-child {
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .place__paragraph {
     max-width: calc(100% - 2*16px);
     padding-left: 16px;

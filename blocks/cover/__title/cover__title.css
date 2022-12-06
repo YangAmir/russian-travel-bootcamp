@@ -4,30 +4,25 @@
   font-size: 72px;
   text-align: center;
   font-weight: 900;
-  margin: 0 auto;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
   display: flex;
+  line-height: 106%;
+  margin-top: 0;
+  position: relative;
+  margin-right: auto;
+  margin-bottom: 32px;
+  margin-left: auto;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 505px) {
   .cover__title {
-    max-width: 560px;
+    font-size: 12vw;
   }
 }
 @media screen and (max-width: 420px) {
   .cover__title {
-    max-width: 288px;
-    margin-top: 33px;
+    max-width: 255px;
     margin-bottom: 16px;
     font-size: 32px;
   }
 }
-/* @media screen and (max-width: 320px) {
-  .cover__title {
-    max-width: 288px;
-    margin-top: 33px;
-    margin-bottom: 16px;
-    font-size: 32px;
-  }
-} */

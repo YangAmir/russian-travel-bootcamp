@@ -4,11 +4,12 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  column-gap: 18px;
 }
 
 @media screen and (max-width: 480px) {
   .footer__links {
     flex-direction: column;
-    margin-bottom: 48px;
+    
   }
 }
