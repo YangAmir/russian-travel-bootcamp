@@ -1,6 +1,10 @@
 .places__place {
   margin-bottom: 80px;
 }
+.places__place:last-child{
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
   .places__place {
     margin-bottom: 76px;

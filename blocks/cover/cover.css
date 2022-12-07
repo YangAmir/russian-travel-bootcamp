@@ -3,10 +3,7 @@
   flex-direction: column;
   width: calc(100% - 2 * 48px);
   padding: 0;
-  margin-top: 91px;
-  margin-right: auto;
-  margin-bottom: 92px;
-  margin-left: auto;
+ margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,17 +12,4 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .cover {
-    margin-top: 90px;
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .cover {
-    margin-top: 66px;
-    margin-bottom: 64px;
-  }
-}
 

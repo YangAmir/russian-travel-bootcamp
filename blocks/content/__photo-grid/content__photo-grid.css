@@ -1,5 +1,15 @@
-.content__photo-grid{
-  margin-bottom: 92px;
-
+.content__photo-grid {
+  margin-bottom: 100px;
 }
 
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content__photo-grid {
+    margin-bottom: 61px;
+  }
+}

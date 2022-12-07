@@ -19,7 +19,4 @@
     font-size: 18px;
     line-height: 20px;
   }
-  .header__lang-link:last-child {
-    margin-right: 0;
-  }
 }
